@@ -5,8 +5,14 @@
 body{
     background-color:  black;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 100vh;
+}
+h1{
+    color: white;
+    padding-bottom: 40px;
 }
 .watch{
     display: flex;
@@ -25,6 +31,7 @@ body{
     background-color: chocolate;
     padding: 4px;
     font-size: 24px;
+    border-radius: 2px;
 }
 .time{
     font-size: 40px;
@@ -46,7 +53,20 @@ body{
         opacity: 0;
     }
 }
-
 .colon{
     animation: blinkAnimation 1s infinite;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn .change{
+    background-color: #0088cc;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #0088cc;
+    border-radius: 2px;
+    padding: 10px;
 }
