@@ -23,7 +23,7 @@ let getTime = (hour,min,sec) =>{
     if(hour<10){
         hour = '0'+hour
     }
-    let str = `${hour}:${min}:${sec}<span id="indicator">${d}</span>`
+    let str = `${hour}:${min}:${sec} <span id="indicator">${d}</span>`
     time.innerHTML = str
 }
 
