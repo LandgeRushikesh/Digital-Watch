@@ -38,3 +38,15 @@ body{
     text-align: right;
     font-size: 24px;
 }
+@keyframes blinkAnimation {
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.colon{
+    animation: blinkAnimation 1s infinite;
+}
